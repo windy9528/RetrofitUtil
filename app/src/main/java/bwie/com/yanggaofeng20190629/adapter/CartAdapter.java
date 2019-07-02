@@ -1,15 +1,12 @@
 package bwie.com.yanggaofeng20190629.adapter;
 
 import android.content.Context;
-import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.ExpandableListView;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,10 +17,7 @@ import java.util.List;
 
 import bwie.com.yanggaofeng20190629.R;
 import bwie.com.yanggaofeng20190629.entity.Goods;
-import bwie.com.yanggaofeng20190629.entity.Result;
 import bwie.com.yanggaofeng20190629.entity.Shops;
-import bwie.com.yanggaofeng20190629.view.CartActivity;
-import retrofit2.http.POST;
 
 /**
  * date:2019/6/29
